@@ -303,10 +303,10 @@ class _MyAppState extends State<MyApp> {
                         child: Center(
                           child: Text(
                             bmicategory == 'Overweight'
-                                ? "'Overweight - Consider adopting a balanced diet and regular exercise routine. Consult with a healthcare professional for personalized advice.'"
+                                ? "Overweight - Consider adopting a balanced diet and regular exercise routine. Consult with a healthcare professional for personalized advice."
                                 : bmicategory == 'Underweight'
-                                    ? "'Underweight - Consider consulting with a healthcare professional for personalized advice on nutrition and health.'"
-                                    : "'Normal - Maintain a healthy lifestyle with regular exercise and balanced nutrition.'",
+                                    ? "Underweight - Consider consulting with a healthcare professional for personalized advice on nutrition and health."
+                                    : "Normal - Maintain a healthy lifestyle with regular exercise and balanced nutrition.",
                             style: const TextStyle(fontSize: 15),
                           ),
                         ),
